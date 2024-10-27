@@ -15,7 +15,7 @@ class MenuPage {
     }
 
     accessPerformance() {
-        cy.get('[href="/web/index.php/pim/viewMyDetails"]').click();
+        cy.get(this.selectorsList().performanceButton).click()
     }
 
 
